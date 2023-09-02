@@ -1,0 +1,24 @@
+input{
+    width: 250px;
+    height:30px;
+    border-radius: 5px;
+    border: 2.2px solid;
+    border-color: #CCCCCC;
+}
+input:focus{
+    border-color: #7A5CFA;
+    outline: none;
+}
+p{
+color: #363636;    
+}
+.alert{
+    width: 20px;
+    display: none;
+}
+.alertMessage{
+    max-width: 250px;
+    color:#ff0202 ;
+    display: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

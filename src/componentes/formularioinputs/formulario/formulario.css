@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+form{
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 14px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row-reverse;
+}
+li{
+    list-style: none;
+}
+ol{
+    display:inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.identificador{
+    align-self: center;
+    margin: 10px;
+}
+button{
+    align-self: center;
+    margin-right: 20px;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 9px -1px #999999;
+    border: none;
+    border-radius: 2px;
+}
+button:hover{
+    background-color: #7A5CFA;
+    color: white;
+    cursor: pointer;
+    background:linear-gradient(to bottom, #468ccf 5%, #7A5CFA 100%);
+}
+.buttonList{
+    width: 215%;
+    z-index:100;
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+.containerPdf{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+.buttonDescargarPdf{
+    color: #ffffff;
+    background:linear-gradient(to bottom, #7ce45d 5%, #5e5e5e 100%);
+}
+.buttonDescargarPdf:hover{
+    background:linear-gradient(to bottom, #4da02c 5%, #353535 100%);
+}
